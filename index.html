@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto E-Commerce</title>
+    <!-- boostrap -->´
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/d24b6e4185.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    
+
+    
+</head>
+<body>
+    <header>
+        <h1 id="inicio" class="first">Gabriel</h1>
+        <h1 class="cambio"> Costa</h1>
+    </header>
+
+    <div class="blog">
+      <ul>
+        <li><a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/cristian-gabriel-costa-1bb64a1b2/"></a></li>
+        <li><a href="https://github.com/gabycosta04" class="fab fa-github"></a></li>
+        <div class="flexbox">
+          <li><a href="src/CV.pdf" download="Cristian-Gabriel-Costa_CV">Mi CV</a></li>
+        </div>
+        
+      </ul>
+    </div>
+
+    <div class="dropdown">
+      <!-- Bootstrap -->
+      <button class="btn btn-secondary dropdown-toggle boton-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Mas informacion
+      </button>
+
+      <div class="contenido-dropdown">
+          <a href="#inicio">Sobre mi</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#experiencia">Trabajo</a>
+          <a href="#estudios">Estudios</a>
+          <a href="#skills">Conocimientos extra</a>
+      </div>
+    </div>
+      
+
+    <div class="contenido">
+
+        <div class="descripcion " id="inicio">
+          <h2 id="p-inicio" class="first">Sobre</h2>
+          <h2 class="cambio"> Mi</h2>
+          <p>
+            Estudiante de Ingeniería en Sistemas de Información en la UTN. 
+            Tengo 20 años y quiero expandir mi experencia y conocimientos tecnologicos.
+            Por el momento, tengo aprobada mas de la mitad de la carrera.
+          </p>
+          <p>
+            Me gusta poder trabajar en equipo y poder tener la posibilidad de ver varias alternativas como solucion a un problema, ademas de trabajar con metodologias de trabajo modernas. 
+            Quiero crecer en esta area y poder mejorar mis habilidades día a día, a través de la experiencia.
+          </p>
+        </div>
+
+        <div class="descripcion" id="proyectos">
+          <h2 id="p-proyectos" class="first">Proyectos</h2>
+
+          <p class="p-content">
+            He trabajado tanto en proyectos grupales como individuales de desarrollo web/SW. Algunos de los que he trabajado se encuentran en mi
+          </p>
+          <span ><a href="https://github.com/gabycosta04">Repositorio</a></span>
+        </div>
+
+
+        <div class="descripcion " id="experiencia">
+          <h2 id="p-experiencia" class="first">Experiencia</h2>
+          <h2 class="cambio"> Laboral</h2>
+          <!-- Bootstrap -->
+          <div class="row">
+            <div class="col-4">
+              <div class="list-group empleo" id="list-tab" role="tablist" >
+                <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home" onclick="myFunction1()">Consultor CRM Trainee</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile" onclick="myFunction2()">Ayudante de catedra</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade empleo" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                  <p >Empresa: Soluciones Tecnológicas de la Información S.A.</p>
+                  <p >Periodo: Enero 2022 - Actualidad
+                  <p >Descripcion: En esta posición, estuve trabajando con la plataforma CRM 
+                    de la compañía, donde podemos desarrollar procesos de 
+                    negocio para cumplir los requerimientos de los clientes de la 
+                    compañía, además de trabajar bajo una metodología BPM. 
+                    Entre algunas de las cosas que realice utilizando la 
+                    plataforma: Crear formularios, Conexión con una API y 
+                    envió de mails, crear procesos ABM (altas, bajas y 
+                    modificaciones), traspaso de procesos de un ambiente a otro, 
+                    crear transacciones y trabajar con la base de datos que viene 
+                    integrado a la plataforma. Además de colaborar con un 
+                    proyecto de Claro Chile.
+                  </p>
+                </div>
+                <div class="tab-pane fade empleo" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                  <p >Empresa: Universidad Tecnologica Nacional (UTN-FRBA)</p>
+                  <p >Periodo: Marzo 2021 - Actualidad
+                  <p >Descripcion: En esta ayudantía, ayude al equipo docente con tareas como: 
+                    Ayuda en la enseñanza en la parte práctica sobre el análisis
+                    de sistemas, corrección de exámenes, envió de tareas 
+                    practicas a los alumnos y responder y ayudar en las dudas de 
+                    los alumnos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="descripcion " id="estudios">
+          <h2 id="p-estudios" class="first">Educacion</h2>
+          <h2 style="display: inline;">/</h2>
+          <h2 class="cambio">Cursos</h2>
+          <!-- Bootstrap -->
+          <div class="row">
+            <div class="col-4">
+              <div class="list-group empleo" id="list-tab" role="tablist" >
+                <a class="list-group-item list-group-item-action " id="universidad-home-list" data-toggle="list" href="#universidad-home" role="tab" aria-controls="universidad" onclick="myFunction3()">Ingenieria en Sistemas</a>
+                <a class="list-group-item list-group-item-action" id="curso1-home-list" data-toggle="list" href="#curso1-home" role="tab" aria-controls="curso1" onclick="myFunction4()">Full Stack Developer</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade empleo" id="universidad-home" role="tabpanel" aria-labelledby="universidad-home-list">
+                  <p >Organizacion: Universidad Tecnologica Nacional (UTN-FRBA)</p>
+                  <p >Periodo: Marzo 2019 - Actualidad
+                  <p >Descripcion: En esta carrera encontre mi pasion por la programacion en SW. A medida que fui avanzando fui obteniendo conceptos de los varios paradigmas de programacion,
+                    ademas de metodologias y enfoques en distintos tipos de proyectos de IT (proyectos de integracion, desarrollo web, etc...). Actualmente me encuentro cursando mi 4to año de la carrera.
+                  </p>
+                </div>
+                <div class="tab-pane fade empleo" id="curso1-home" role="tabpanel" aria-labelledby="curso1-home-list">
+                  <p >Empresa: Universidad Tecnológica Nacional - Neoris</p>
+                  <p >Periodo: Octubre 2021- Enero 2022
+                  <p >Descripcion: En este curso, creamos un proyecto de una plataforma web 
+                    (en el caso de mi grupo creamos una página de adopciones y 
+                    rescate de mascotas). Donde ademas de varios conceptos de POO y desarrollo 
+                    tanto backend como en frontnend, aprendimos las siguientes herramientas tanto del 
+                    Back End como del Front End: PHP, Laravel, MySQL, JS, 
+                    HTML, CSS, Bootstrap, JQuery, y muy poco de Angular.
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="descripcion" id="skills">
+          <div class="resume-section-content">
+              <h2 class="first">Conocimientos</h2>
+              <h2 class="cambio">Tecnicos</h2>
+              
+              <ul class="list-inline dev-icons">
+                  <li class="list-inline-item"><img src="src/html.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/css.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/js.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/c.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/cpp.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/github.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/java.jpg" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/hiberante.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/spark.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/sql.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/php.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/laravel.png" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/postman.jpg" alt="html5" width="100px" height="100px"></li>
+                  <li class="list-inline-item"><img src="src/node.png" alt="html5" width="100px" height="100px"></li>
+
+              </ul>
+              <div class="subheading mb-3"><h2 class="first">Idiomas</h2></div>
+              <div class="idiomas">
+                <p>Estudie bastante tiempo inglés desde chico hasta mis ultimos años de secundaria y principios de facultad . Mi nivel actual de ingles es B1, aunque en 2020 me estuve preparando para dar el examen B2, pero finalmente por cuestiones personales no lo rendi. Igualmente planeo volver a estudiar y mejorar mi nivel</p>
+              </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer id="final">
+
+        <p>
+            Nosotros somos un proyecto que trata de ser un Mercado Libre pero
+            para la venta de libros alrededor del mundo
+        </p>
+    </footer>
+        
+    
+
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</html>
