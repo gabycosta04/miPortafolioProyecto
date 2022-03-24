@@ -2,7 +2,7 @@
         body{
             
             color: white;
-            background-image: url("http://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+            background-image: url("https://p4.wallpaperbetter.com/wallpaper/144/222/411/code-rainbows-lights-colorful-wallpaper-preview.jpg");
           
         }
 
@@ -37,26 +37,11 @@
             
         }
 
-        .tarjeta{
-            background-color: rgb(46, 39, 39);
-            margin: 10px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .tarjeta h2{
-            margin-top: 0;
-        }
-
-        .tarjeta p{
-            margin: 10px;
-        }
-
 
 
         /* ------------------DESCRIPCION-------------------- */
         .descripcion{
-            background-color: rgb(46, 39, 39);
+            background-color: rgb(53, 50, 50);
             padding: 60px;
             margin-bottom: 20px;
         }
