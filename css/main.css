@@ -267,3 +267,79 @@
         }
 
 
+
+        /* RESPONSIVE */
+
+        @media screen and (max-width: 980px){
+            body{
+                padding: 20px;
+                width: 100%;
+                
+            }
+            .descripcion{
+                width: 100%;
+            }
+        
+        }
+
+
+        @media screen and (max-width: 580px){
+
+
+            
+
+            .descripcion{
+                width: 95%;
+                padding: 20px;
+                margin-left: 5%        
+            }
+
+            .blog ul{
+                width: 95%;    
+            }
+
+            footer{
+                margin-left: 5% 
+            }
+
+
+
+            
+        }
+
+
+        @media screen and (max-width: 480px){
+
+            .descripcion h2{
+                font-size: 200%;
+            }
+
+            .descripcion p{
+                font-size: 90%;
+            }
+            
+
+            .descripcion{
+                width: 95%;       
+            }
+
+            .blog ul{
+                width:105%;    
+            }
+
+            .contenido-dropdown{
+                font-size: 10px;
+            }
+            .boton-dropdown{
+                width: auto;
+                font-size: 70%;
+            }
+
+            
+
+
+
+            
+        }
+
+
