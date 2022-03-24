@@ -253,6 +253,9 @@
             background-color: royalblue;
         }
 
+        .list-group-item{
+            position:static;
+        }
 
         /* Stack de tecnologias */
 
