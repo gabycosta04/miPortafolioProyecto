@@ -290,6 +290,11 @@
                 margin-left: 5% 
             }
 
+            .descripcion {
+                padding-top: 50px;
+            }
+
+
 
 
             
@@ -308,7 +313,8 @@
             
 
             .descripcion{
-                width: 95%;       
+                width: 95%; 
+                    
             }
 
             .blog ul{
@@ -323,6 +329,7 @@
                 font-size: 70%;
             }
 
+            
             
 
 
